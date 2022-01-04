@@ -29,3 +29,8 @@ The code first takes in the system arguments and the map is sent to the solve fu
 ###### cols - Checks for different row, column and not in diagonal of pichu. Apart from this, checks the condition if it is same column and there is an obstacle in between then condition satisfies.
 ###### diagonals - Checks for different row, column and not in diagonal of pichu. Apart from this, checks the condition if it is same diagonal and there is an obstacle in between then condition satisfies.
 The DFS search method is used for the computation as it is atleast 100 times faster than the BFS search method. Considering all the above conditions and applying them, a final list of k pichu positions/coordinates are returned and added to the initial_house_map and renamed as updated_map. The updated map having all the k pichus added and not facing each other is returned as the desired output. 
+
+##### Command:
+The following command can be used to run the program in the command prompt-
+
+python arrange_pichus.py map3.txt 5
